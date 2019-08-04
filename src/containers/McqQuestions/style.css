@@ -1,0 +1,40 @@
+.button{
+	width: 112px;
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin : 8px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.mcqlist{
+	list-style : none;
+	padding:20px;
+	font-size: 19px;
+	font-family: monospace;
+	margin-top:25px;
+	padding: 5px;
+}
+
+.option-button{
+	cursor: pointer;
+	margin-right: 17px;
+
+}
+
+.button-wrapper{
+	margin-top : 65px;
+}
+
+.mcq-question{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+
+
+

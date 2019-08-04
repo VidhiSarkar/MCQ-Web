@@ -1,0 +1,306 @@
+{
+  "mcq": [
+    {
+      "id": 1,
+      "question": "We can go for keys when there is a possibility that our user could change the data.",
+      "type": "single",
+      "options": {
+        "0": "Keys",
+        "1": "Ref",
+        "2": "Both",
+        "3": "None of the above"
+      }
+    },
+    {
+      "id": 2,
+      "question": "JSX is typesafe.",
+      "type": "single",
+      "options": {
+        "0": "True",
+        "1": "False"
+      }
+    },
+    {
+      "id": 3,
+      "question": "React merges the object you provide into the current state using __________",
+      "type": "single",
+      "options": {
+        "0": "setState()",
+        "1": "State()"
+      }
+    },
+    {
+      "id": 4,
+      "question": "Arbitrary inputs of components are called __________",
+      "type": "single",
+      "options": {
+        "0": "Keys",
+        "1": "Props",
+        "2": "Both",
+        "3": "Elements",
+        "4": "Ref"
+      }
+    },
+    {
+      "id": 5,
+      "question": "_________ can be done while more than one element needs to be returned from a component.",
+      "type": "single",
+      "options": {
+        "0": "Abstraction",
+        "1": "Packing",
+        "2": "Insulation",
+        "3": "Wrapping"
+      }
+    },
+    {
+      "id": 6,
+      "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+      "type": "single",
+      "options": {
+        "0": "State",
+        "1": "Props"
+      }
+    },
+    {
+      "id": 7,
+      "question": "Lifecycle methods are mainly used ___________",
+      "type": "single",
+      "options": {
+        "0": "To keep track of event history",
+        "1": "To enhance components",
+        "2": "Free up resources",
+        "3": "None of the options"
+      }
+    }
+  ],
+  "results": [
+    {
+      "1": {
+        "questionId": 1,
+        "question": "We can go for keys when there is a possibility that our user could change the data.",
+        "answer": "Ref"
+      },
+      "2": {
+        "questionId": 2,
+        "question": "JSX is typesafe.",
+        "answer": "True"
+      },
+      "3": {
+        "questionId": 3,
+        "question": "React merges the object you provide into the current state using __________",
+        "answer": "State()"
+      },
+      "4": {
+        "questionId": 4,
+        "question": "Arbitrary inputs of components are called __________",
+        "answer": "Props"
+      },
+      "5": {
+        "questionId": 5,
+        "question": "_________ can be done while more than one element needs to be returned from a component.",
+        "answer": "Packing"
+      },
+      "6": {
+        "questionId": 6,
+        "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+        "answer": "State"
+      },
+      "7": {
+        "questionId": 7,
+        "question": "Lifecycle methods are mainly used ___________",
+        "answer": "To enhance components"
+      },
+      "id": 1
+    },
+    {
+      "1": {
+        "questionId": 1,
+        "question": "We can go for keys when there is a possibility that our user could change the data.",
+        "answer": "None of the above"
+      },
+      "2": {
+        "questionId": 2,
+        "question": "JSX is typesafe.",
+        "answer": "True"
+      },
+      "3": {
+        "questionId": 3,
+        "question": "React merges the object you provide into the current state using __________",
+        "answer": "setState()"
+      },
+      "4": {
+        "questionId": 4,
+        "question": "Arbitrary inputs of components are called __________",
+        "answer": "Elements"
+      },
+      "5": {
+        "questionId": 5,
+        "question": "_________ can be done while more than one element needs to be returned from a component.",
+        "answer": "Abstraction"
+      },
+      "6": {
+        "questionId": 6,
+        "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+        "answer": "State"
+      },
+      "7": {
+        "questionId": 7,
+        "question": "Lifecycle methods are mainly used ___________",
+        "answer": "None of the options"
+      },
+      "id": 2
+    },
+    {
+      "1": {
+        "questionId": 1,
+        "question": "We can go for keys when there is a possibility that our user could change the data.",
+        "answer": "Keys"
+      },
+      "2": {
+        "questionId": 2,
+        "question": "JSX is typesafe.",
+        "answer": "False"
+      },
+      "3": {
+        "questionId": 3,
+        "question": "React merges the object you provide into the current state using __________",
+        "answer": "setState()"
+      },
+      "4": {
+        "questionId": 4,
+        "question": "Arbitrary inputs of components are called __________",
+        "answer": "Props"
+      },
+      "5": {
+        "questionId": 5,
+        "question": "_________ can be done while more than one element needs to be returned from a component.",
+        "answer": "Packing"
+      },
+      "6": {
+        "questionId": 6,
+        "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+        "answer": "State"
+      },
+      "7": {
+        "questionId": 7,
+        "question": "Lifecycle methods are mainly used ___________",
+        "answer": "Free up resources"
+      },
+      "id": 3
+    },
+    {
+      "1": {
+        "questionId": 1,
+        "question": "We can go for keys when there is a possibility that our user could change the data.",
+        "answer": "Keys"
+      },
+      "2": {
+        "questionId": 2,
+        "question": "JSX is typesafe.",
+        "answer": "True"
+      },
+      "3": {
+        "questionId": 3,
+        "question": "React merges the object you provide into the current state using __________",
+        "answer": "setState()"
+      },
+      "4": {
+        "questionId": 4,
+        "question": "Arbitrary inputs of components are called __________",
+        "answer": "Both"
+      },
+      "5": {
+        "questionId": 5,
+        "question": "_________ can be done while more than one element needs to be returned from a component.",
+        "answer": "Insulation"
+      },
+      "6": {
+        "questionId": 6,
+        "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+        "answer": "State"
+      },
+      "7": {
+        "questionId": 7,
+        "question": "Lifecycle methods are mainly used ___________",
+        "answer": "Free up resources"
+      },
+      "id": 4
+    },
+    {
+      "1": {
+        "questionId": 1,
+        "question": "We can go for keys when there is a possibility that our user could change the data.",
+        "answer": "Keys"
+      },
+      "2": {
+        "questionId": 2,
+        "question": "JSX is typesafe.",
+        "answer": "False"
+      },
+      "3": {
+        "questionId": 3,
+        "question": "React merges the object you provide into the current state using __________",
+        "answer": "State()"
+      },
+      "4": {
+        "questionId": 4,
+        "question": "Arbitrary inputs of components are called __________",
+        "answer": "Props"
+      },
+      "5": {
+        "questionId": 5,
+        "question": "_________ can be done while more than one element needs to be returned from a component.",
+        "answer": "Packing"
+      },
+      "6": {
+        "questionId": 6,
+        "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+        "answer": "State"
+      },
+      "7": {
+        "questionId": 7,
+        "question": "Lifecycle methods are mainly used ___________",
+        "answer": "To enhance components"
+      },
+      "id": 5
+    },
+    {
+      "1": {
+        "questionId": 1,
+        "question": "We can go for keys when there is a possibility that our user could change the data.",
+        "answer": "Keys"
+      },
+      "2": {
+        "questionId": 2,
+        "question": "JSX is typesafe.",
+        "answer": "True"
+      },
+      "3": {
+        "questionId": 3,
+        "question": "React merges the object you provide into the current state using __________",
+        "answer": "setState()"
+      },
+      "4": {
+        "questionId": 4,
+        "question": "Arbitrary inputs of components are called __________",
+        "answer": "Both"
+      },
+      "5": {
+        "questionId": 5,
+        "question": "_________ can be done while more than one element needs to be returned from a component.",
+        "answer": "Packing"
+      },
+      "6": {
+        "questionId": 6,
+        "question": "Which of the following needs to be updated to achieve dynamic UI updates?",
+        "answer": "Props"
+      },
+      "7": {
+        "questionId": 7,
+        "question": "Lifecycle methods are mainly used ___________",
+        "answer": "To enhance components"
+      },
+      "id": 6
+    }
+  ]
+}

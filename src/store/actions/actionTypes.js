@@ -1,0 +1,10 @@
+export const INIT_QUESTIONS = 'INIT_QUESTIONS';
+export const GET_QUESTIONS = 'GET_QUESTIONS';
+export const INIT_WATCH_QUESTIONS = 'SET_QUESTIONS';
+export const FETCH_QUESTIONS_FAILED = 'FETCH_QUESTIONS_FAILED';
+export const NEXT = 'NEXT';
+export const PREVIOUS = 'PREVIOUS';
+export const GET_RESULTS = 'GET_RESULTS';
+
+
+
