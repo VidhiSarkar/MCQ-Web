@@ -1,7 +1,6 @@
 import React from 'react';
  
-
-const McqList = (props) =>{	
+ const McqList = (props) =>{	
 	return(
 		<div>
 			<li>

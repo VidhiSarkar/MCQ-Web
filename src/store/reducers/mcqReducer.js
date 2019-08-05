@@ -7,7 +7,7 @@ const initialState = {
 	error:false,
 	currentPosition : 0,
 	results : [],
-	mcqResults : []
+	mcqResults : ''
 }
 
 const getQuestions =(state,action)=>{

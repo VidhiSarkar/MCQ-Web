@@ -7,8 +7,6 @@ import createSagaMiddleware from "redux-saga";
 import thunk from 'redux-thunk';
 import App from './App';
 import mcqReducer from "./store/reducers/mcqReducer";
-//import 'bootstrap/dist/css/bootstrap.css';
-//import 'bootstrap';
 
 const rootReducer = combineReducers({
     mcq : mcqReducer

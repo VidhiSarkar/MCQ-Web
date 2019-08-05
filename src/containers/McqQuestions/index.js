@@ -22,8 +22,7 @@ class McqQuestions extends Component{
 			currentPreviousQuestion();		
 	}
 
-	onChangeNextHandler = (questNo) =>{
-			debugger;						
+	onChangeNextHandler = (questNo) =>{									
 			if(!this.state.result[questNo])
 				{ 	
 					alert("Please select answer ")
@@ -79,7 +78,6 @@ class McqQuestions extends Component{
 							)
 						)};			
 		return(
-
 			<div>
 				<div> 
 					<div className="mcq-question">Q-{questNo} - {initQuestion}</div>					

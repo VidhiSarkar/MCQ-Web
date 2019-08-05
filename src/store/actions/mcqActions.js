@@ -69,10 +69,7 @@ export const getcurrentNextQuestion = () =>{
 	}
 }
 
-export const submittedAllQuestions = (questions) => {
-  debugger;
-  console.log("questions",questions);
-  //const questionsList = JSON.stringify(questions)
+export const submittedAllQuestions = (questions) => { 
   return dispatch => {    
     const config ={
     	header:{
@@ -92,7 +89,11 @@ export const getAllMcqResults = () => {
 		axios.get("results")		
 		.then(response =>{
 			const key = Object.keys(response.data).length - 1;
-			dispatch(getResults(response.data[key]));
+			const results = response.data[key] && response.data[key];
+			if(results){
+				delete results.id;
+				dispatch(getResults(response.data[key]));
+			}
 		})
 	}
 

@@ -3,6 +3,7 @@ import * as actions from '../../store/actions';
 import {connect} from 'react-redux';
 import './style.css';
 
+
 class McqResullt extends Component{
 	
 	componentDidMount(){
@@ -11,15 +12,16 @@ class McqResullt extends Component{
 	}
 
 	render(){		
-		const {results} = this.props;		
-		const resultListing = results && Object.keys(results).map((key)=>{
+		const {results} = this.props;				
+		const resultListing = results ? Object.keys(results).map((key)=>{
 			return(				
-					<ul> 
-						<li>Q-{results[key].question}</li>
-						<li>Answer - {results[key].answer}</li>
-					</ul>			
+						<div className ="result">
+							<li><strong>Q-{key} {results[key].question}</strong></li>
+							<li> Answer - {results[key].answer} </li>
+						</div>
+								
 			)
-		})
+		}):"Loading...";
 		return(
 			<div>
 				<h1>Test Result</h1>
