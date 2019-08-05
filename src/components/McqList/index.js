@@ -12,7 +12,6 @@ import React from 'react';
 						  === props.questionOption
 						 ? 'checked' : '' 
 						  }
-
 					onChange = {(e)=>props.changeHandler(e,props.currentOption)}/>
 					{props.questionOption}
 			</li>
